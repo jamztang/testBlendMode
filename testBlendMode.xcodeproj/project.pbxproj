@@ -16,6 +16,8 @@
 		1A17F04A27CE3F91009EC662 /* testBlendModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17F04927CE3F91009EC662 /* testBlendModeTests.swift */; };
 		1A17F05427CE3F91009EC662 /* testBlendModeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17F05327CE3F91009EC662 /* testBlendModeUITests.swift */; };
 		1A17F05627CE3F91009EC662 /* testBlendModeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17F05527CE3F91009EC662 /* testBlendModeUITestsLaunchTests.swift */; };
+		1A17F06327CE3FA8009EC662 /* BlendingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17F06227CE3FA8009EC662 /* BlendingView.swift */; };
+		1A17F06527CE42F2009EC662 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A17F06427CE42F2009EC662 /* AnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1A17F04F27CE3F91009EC662 /* testBlendModeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testBlendModeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A17F05327CE3F91009EC662 /* testBlendModeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBlendModeUITests.swift; sourceTree = "<group>"; };
 		1A17F05527CE3F91009EC662 /* testBlendModeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBlendModeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1A17F06227CE3FA8009EC662 /* BlendingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlendingView.swift; sourceTree = "<group>"; };
+		1A17F06427CE42F2009EC662 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				1A17F03227CE3F90009EC662 /* AppDelegate.swift */,
 				1A17F03427CE3F90009EC662 /* SceneDelegate.swift */,
 				1A17F03627CE3F90009EC662 /* ViewController.swift */,
+				1A17F06227CE3FA8009EC662 /* BlendingView.swift */,
 				1A17F03827CE3F90009EC662 /* Main.storyboard */,
+				1A17F06427CE42F2009EC662 /* AnnotationView.swift */,
 				1A17F03B27CE3F91009EC662 /* Assets.xcassets */,
 				1A17F03D27CE3F91009EC662 /* LaunchScreen.storyboard */,
 				1A17F04027CE3F91009EC662 /* Info.plist */,
@@ -260,7 +266,9 @@
 			files = (
 				1A17F03727CE3F90009EC662 /* ViewController.swift in Sources */,
 				1A17F03327CE3F90009EC662 /* AppDelegate.swift in Sources */,
+				1A17F06527CE42F2009EC662 /* AnnotationView.swift in Sources */,
 				1A17F03527CE3F90009EC662 /* SceneDelegate.swift in Sources */,
+				1A17F06327CE3FA8009EC662 /* BlendingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
